@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>我的个人网站</title>
+	<link href="http://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css">
+	<style type="text/css">
+		.demo{ background: #25303b;padding: 2em 0; }
+		.main-timeline{
+		    width: 80%;
+		    margin: 20px auto;
+		    position: relative;
+		}
+		.main-timeline:before{
+		    content: "";
+		    width: 2px;
+		    height: 100%;
+		    background: rgba(255,255,255,0.2);
+		    margin: 0 0 0 -1px;
+		    position: absolute;
+		    top: 0;
+		    left: 50%;
+		}
+		.main-timeline .timeline{
+		    width: 100%;
+		    margin-bottom: 20px;
+		    position: relative;
+		}
+		.main-timeline .timeline:after{
+		    content: "";
+		    display: block;
+		    clear: both;
+		}
+		.main-timeline .timeline-content{
+		    width: 40%;
+		    float: left;
+		    margin: 5px 0 0 0;
+		    border-radius: 6px;
+		}
+		.main-timeline .date{
+		    display: block;
+		    width: 70px;
+		    height: 70px;		    
+		    background: #25303b;
+		    padding: 5px 0;
+		    margin: 0 0 0 -36px;
+		    position: absolute;
+		    top: 0;
+		    left: 50%;
+		    font-size: 12px;
+		    font-weight: 900;		    		    
+		    border: 2px solid rgba(255,255,255,0.2);
+		    box-shadow: 0 0 0 7px #25303b;
+		}		
+		.main-timeline .title{
+		    padding: 15px;
+		    margin: 0;
+		    font-size: 20px;
+		    color: #fff;
+		    text-transform: uppercase;
+		    letter-spacing: -1px;
+		    border-radius: 6px 6px 0 0;
+		    position: relative;
+		}
+		.main-timeline .title:after{
+		    content: "";
+		    width: 10px;
+		    height: 10px;
+		    position: absolute;
+		    top: 20px;
+		    right: -5px;
+		    transform: rotate(-45deg);
+		}
+		.main-timeline .description{
+		    padding: 15px;
+		    margin: 0;
+		    font-size: 14px;
+		    color: #656565;
+		    background: #fff;
+		    border-radius: 0 0 6px 6px;
+		}
+		.main-timeline .timeline:nth-child(2n+2) .timeline-content{
+		    float: right;
+		}
+		.main-timeline .timeline:nth-child(2n+2) .title:after{
+		    left: -5px;
+		}
+		.main-timeline .timeline:nth-child(1) .title,
+		.main-timeline .timeline:nth-child(1) .title:after{
+		    background: #9f84c4;
+		}
+		.main-timeline .timeline:nth-child(2) .title,
+		.main-timeline .timeline:nth-child(2) .title:after{
+		    background: #02a2dd;
+		}
+		.main-timeline .timeline:nth-child(3) .title,
+		.main-timeline .timeline:nth-child(3) .title:after{
+		    background: #58b25e;
+		}
+		.main-timeline .timeline:nth-child(4) .title,
+		.main-timeline .timeline:nth-child(4) .title:after{
+		    background: #eab715;
+		}
+		
+		
+	</style>
+</head>
+<body>
+	<div class="htmleaf-container">
+		<header class="htmleaf-header">
+			<h1>我的个人网站主页之电影介绍</h1>			
+		</header>
+		<div class="demo">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-md-12">
+	                    <div class="main-timeline">
+	                        <div class="timeline">
+	                            <div class="timeline-content">
+	                                <span class="date">
+	                                    <span class="day">喜剧电影</span>	                                    
+	                                </span>
+	                                <h2 class="title">代表人物和代表作品</h2>
+	                                <p class="description">中国香港 周星驰 《大话西游》 印度 阿米尔汗 《三傻大闹宝莱坞》  美国 克里斯哥伦布 《小鬼当家》</p>
+	                            </div>
+	                        </div>
+
+	                        <div class="timeline">
+	                            <div class="timeline-content">
+	                                <span class="date">
+	                                    <span class="day">爱情电影</span>	                                    
+	                                </span>
+	                                <h2 class="title">代表人物和代表作品</h2>
+	                                <p class="description">日本 岩井俊二 《情书》 法国 吕克贝松 《这个杀手不太冷》 美国 罗伯莱纳 《怦然心动》</p>
+	                            </div>
+	                        </div>
+
+	                        <div class="timeline">
+	                            <div class="timeline-content">
+	                                <span class="date">
+	                                    <span class="day">悬疑电影</span>	                                   
+	                                </span>
+	                                <h2 class="title">主要人物和代表作品</h2>
+	                                <p class="description">美国 马丁斯科赛斯 《禁闭岛》   中国 忻钰坤  《心迷宫》   日本 中岛哲也 《告白》</p>
+	                            </div>
+	                        </div>
+
+	                        <div class="timeline">
+	                            <div class="timeline-content">
+	                                <span class="date">
+	                                    <span class="day">科幻电影</span>	        
+	                                </span>
+	                                <h2 class="title">主要人物和代表作品</h2>
+	                                <p class="description">美国 詹姆斯卡梅隆 《阿凡达》 英国 阿方索卡隆 《人类之子》</p>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+		
+		</div>
+	</div>
+	
+</body>
+</html>
