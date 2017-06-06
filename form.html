@@ -1,0 +1,60 @@
+<body background="./jpg/背景.jpg">
+	<h2 align="center"><b>看电影人士信息采集注册表</b></h2>
+	<form >
+		姓名：<input type="text" name="name" id="name"><br/>
+		身份证号：<input type="text" name="name" id="name"><br/>
+		性别：<input type="radio" value="male" checked />男
+		<input type="radio" value="female" />女<br/>
+		看电影年龄：
+			<select name="select1">
+				<option value="1" select>小于五年</option>
+				<option value="2" >大于十年</option>
+				<option value="3" >十年到五年之间</option>
+			</select>
+		看电影的频率：
+			<select name="select2">
+				<option value="1" select>一天一部</option>
+				<option value="2" >一段时间一部</option>
+				<option value="3" >很久才看一部</option>
+			</select>
+		爱看电影类型：
+			<select name="select3">
+				<option value="1" select>都可以</option>
+				<option value="2" >专一于一类</option>
+				<option value="3" >不看</option>
+			</select><br/>
+		登陆密码：<input type="password" id="password" value="" size="20"><br/>
+		确认密码：<input type="password" id="password" value="" size="20"><br/>
+		密码提示问题：
+			<select name="select4">
+				<option value="1" select>父亲的名字？</option>
+				<option value="2" >母亲的名字？</option>
+				<option value="3" >出生年月日？</option>
+				<option value="4" >小学学校的名字？</option>
+			</select><br/>
+		问题答案：
+		<input type="text"><br/>
+		电子邮件：
+			<input type="text" name="email">@<select name="select5">
+				<option value="1" select>sohu.com</option>
+				<option value="2" >126.com</option>
+				<option value="3" >163.com</option>
+				<option value="4" >sina.com</option>
+				<option value="5" >yahoo.com</option>
+			</select><br/>
+		爱好：
+				<input type="checkbox" checked>音乐
+				<input type="checkbox" checked>旅游
+				<input type="checkbox">游戏
+				<input type="checkbox">摄影
+				<input type="checkbox">影视
+			<br/>
+		个人描述：<br/>
+			<textarea cols="50" rows="10" wrap="virtual"></textarea>
+			<br/>
+			<input type="submit" value="确认以上信息并提交">&nbsp;&nbsp;
+			<input type="reset" value="不，我要重新输入">
+	</form>
+	<a class="geren"  href="个人网站.html" target="_blank">返回主页</a>
+
+</body>

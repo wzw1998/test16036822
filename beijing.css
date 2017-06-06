@@ -1,0 +1,12 @@
+<div id="简约-image">
+    <img src="img/简约.png">
+</div>
+#简约-image{   
+    position:absolute;   
+    top:0;   
+    left:0;   
+    height:100%;   
+    width:100%;
+    z-index:-9;     
+}   
+#简约-image img{width:100%;}
