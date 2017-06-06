@@ -5,13 +5,13 @@
 	height:0;
 	clear:both;
 }
-#page{
-	width:960px;
-	margin: 0 auto;
-}
-#imgA{
+		#page{
+			width:960px;
+			margin: 0 auto;
+		}
+		#imgA{
 
-}
+		}
 		a{cursor:pointer;
 		  font-size:30px;
 		  color: #369;
